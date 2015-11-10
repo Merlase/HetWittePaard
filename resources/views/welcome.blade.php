@@ -4,7 +4,13 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        
 
+        <link href="{!! asset('/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css">
+        <link href="{!! asset('/css/main.css') !!}" rel="stylesheet" type="text/css">
+        <script src="{!! asset('/js/jquery-1.11.3.min.js') !!}"></script>
+        <script src="{!! asset('/js/bootstrap.min.js') !!}"></script>
+        
         <style>
             html, body {
                 height: 100%;
