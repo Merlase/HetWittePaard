@@ -19,9 +19,9 @@
 						<label for="phone">Wachtwoord</label>
 					</div>
 					<div class="form-group">
-						<input type="submit">
+						<input type="submit" class="btn btn-success" value="Login">
 					</div>
-		        	<p class="text-muted">By clicking "Sign up for GitHub", you agree to our
+		        	<p class="text-muted">By clicking "Sign up for ScienceConnect", you agree to our
 				        <a href="#" target="_blank">Over ons</a> and
 				        <a href="#" target="_blank">test</a>. 
 				        <span class="js-email-notice">We will send you account related emails occasionally.</span>
