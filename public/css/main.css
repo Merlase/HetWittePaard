@@ -1,7 +1,16 @@
 .navbar-default {
-    background-color: lightblue;
+    background-color: #4388CC;
     border-color: #e7e7e7;
     border-radius: 0px;
+    border: 0px;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+.navbar-default img {
+	padding: 11px;
 }
 #hero {
 	margin-top: -20px;
