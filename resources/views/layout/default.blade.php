@@ -6,6 +6,7 @@
 
 		<title>Science connect</title>
 
+		<link href="{!! asset('/css/normalize.css') !!}" rel="stylesheet" type="text/css">
 		<link href="{!! asset('/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css">
         <link href="{!! asset('/css/main.css') !!}" rel="stylesheet" type="text/css">
 	</head>
@@ -57,13 +58,13 @@
 		    	</div><!-- /.navbar-collapse -->
 		 	</div><!-- /.container-fluid -->
 		</nav>
-		<div class="container">
+			
 			@yield('header')
 			
 			@yield('content')
 
 			@yield('footer')
-		</div>
+
 		<script src="{!! asset('/js/jquery-1.11.3.min.js') !!}"></script>
         <script src="{!! asset('/js/bootstrap.min.js') !!}"></script>
 	</body>
