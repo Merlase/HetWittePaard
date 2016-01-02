@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateGroupsTable extends Migration
+class CreateCompaniesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,15 @@ class CreateGroupsTable extends Migration
     public function up()
     {
         //
-        Schema::create('groups', function($t)
+        Schema::create('companies', function($t)
         {
             $t->increments('ID')->unsigned();
+            $t->string('Company_name', 100);
+            $t->text('Company_desc')->nullable();
             $t->integer('Creator_ID')->unsigned();
-            $t->string('Name', 100);
             $t->boolean('Blocked')->default(false);
             $t->boolean('Disabled')->default(false);
-            $t->timestamps();
+            $t->boolean('Verified')->default(false);
 
             $t->foreign('Creator_ID')->references('ID')->on('accounts');
         });
@@ -34,6 +35,6 @@ class CreateGroupsTable extends Migration
     public function down()
     {
         //
-        Schema::dropIfExists('groups');
+        Schema::dropIfExists('companies');
     }
 }
