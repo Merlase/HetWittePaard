@@ -3,19 +3,19 @@
 <h1>Registreren</h1>
  <form role="form">
   <div class="form-group required">
-    <label for="email">Email address:</label>
+    <label class="control-label" for="email">Email address:</label>
     <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group required">
-    <label for="pwd">Password:</label>
+    <label class="control-label" for="pwd">Password:</label>
     <input type="password" class="form-control" id="pwd">
   </div>
      <div class="form-group required">
-         <label for="pwd">extra:</label>
+         <label class="control-label" for="pwd">extra:</label>
          <input type="extra" class="form-control" id="pwd">
      </div>
      <div class="form-group">
-         <label for="pwd">extra:</label>
+         <label class="control-label" for="pwd">extra:</label>
          <input type="extra" class="form-control" id="pwd">
      </div>
   <div class="checkbox">
