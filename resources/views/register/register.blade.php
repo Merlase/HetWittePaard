@@ -14,11 +14,11 @@
          <label class="control-label" for="pwd">gebruikersnaam:</label>
          <input type="extra" class="form-control" id="pwd">
      </div>
-     <div class="form-group">
+     <div class="form-group required">
          <label class="control-label" for="pwd">e-mail:</label>
          <input type="extra" class="form-control" id="pwd">
      </div>
-     <div class="form-group required">
+     <div class="form-group ">
          <label class="control-label" for="pwd">telefoonnummer:</label>
          <input type="extra" class="form-control" id="pwd">
      </div>
