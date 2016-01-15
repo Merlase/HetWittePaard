@@ -31,4 +31,140 @@
 		</div>
 	</div>
 </section>
+<section id="projects">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Here are some projects</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="controls">
+				  	<label>Filter:</label>
+				  
+				  	<button class="filter" data-filter="all">Alles</button>
+				  	<button class="filter" data-filter=".html">HTML</button>
+				  	<button class="filter" data-filter=".php">PHP</button>
+				  
+				  	<!-- <label>Sort:</label>
+				  
+				  	<button class="sort" data-sort="myorder:asc">Asc</button>
+				  	<button class="sort" data-sort="myorder:desc">Desc</button> -->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="Container">
+			  	<div class="mix html col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>HTML 5</h3>
+                            <p>Development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+
+			  	<div class="mix html col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>HTML 5</h3>
+                            <p>Development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+
+			  	<div class="mix html col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>HTML 5</h3>
+                            <p>Development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+			  	<div class="mix html col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>HTML 5</h3>
+                            <p>Development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+			  	<div class="mix php col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/abstract" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>PHP</h3>
+                            <p>PHP development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+
+			  	<div class="mix html col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>HTML 5</h3>
+                            <p>Development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+			  	<div class="mix html col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>HTML 5</h3>
+                            <p>Development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+			  	<div class="mix php col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/abstract" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>PHP</h3>
+                            <p>PHP development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+			  	<div class="mix php col-md-4" data-myorder="1">
+			  		<a href="http://themes.blahlab.com/devoll/portfolios/beautiful-girl/">
+                        <img src="http://lorempixel.com/400/300/abstract" alt="">
+                        <div class="overlay" style="background: rgba(143, 221, 115, 0.8);">
+                        <div class="thumb-info">
+                            <h3>PHP</h3>
+                            <p>PHP development &amp; Print</p>
+                        </div>
+                        </div>
+                    </a>
+			  	</div>
+			  
+			  <div class="gap"></div>
+			  <div class="gap"></div>
+			</div>
+		</div>
+	</div>
+</section>
 @stop
