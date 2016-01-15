@@ -10,6 +10,14 @@
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" id="pwd">
   </div>
+     <div class="form-group">
+         <label for="pwd">extra:</label>
+         <input type="extra" class="form-control" id="pwd">
+     </div>
+     <div class="form-group">
+         <label for="pwd">extra:</label>
+         <input type="extra" class="form-control" id="pwd">
+     </div>
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
