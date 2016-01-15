@@ -16,8 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/admin-paneel/', 'AdminController@index');
-<<<<<<< HEAD
 Route::get('/profile', 'ProfileController@index');
-=======
-Route::get('/register/', 'RegisterController@index');
->>>>>>> 06e51e7c3ab9e74bb30fba1c9b8b250fda47c72c
+Route::get('/register', 'RegisterController@index');
