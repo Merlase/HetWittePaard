@@ -1,3 +1,10 @@
+html{
+    min-height:100%;
+}
+.form-group.required .control-label:after{
+    content:"*";
+    color:#f00;
+}
 .navbar-default {
     background-color: #4388CC;
     border-color: #e7e7e7;
