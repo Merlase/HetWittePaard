@@ -16,8 +16,9 @@ class RegisterController extends Controller
      */
     public function index()
     {
-        //
+        return view('Register.register');
     }
+
 
     /**
      * Show the form for creating a new resource.
