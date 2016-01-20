@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/admin-paneel/', 'AdminController@index');
+Route::get('/admin-paneel', 'AdminController@index');
 Route::get('/profile', 'ProfileController@index');
 Route::get('/register', 'RegisterController@index');
