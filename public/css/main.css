@@ -146,16 +146,12 @@ html{
     transform: scale3d(1, 1, 1);
   }
 }
-
-.pulse {
-	display: inline-block;
-
- }
 #usp .col-md-6:hover > .media div a .fa {
     animation-name: pulsee;
     animation-duration: 1s;
     color: #2DB4A8;
 }
+
 #usp .animate {
     animation-name: pulse;
 }
