@@ -1,7 +1,7 @@
 @extends('layout.default')
 @section('content')
 <h1>Registreren</h1>
-<form action="" role="form">
+<form action="" method="post" role="form">
 	<div class="form-group required">
 		<label class="control-label" for="firstname">Voornaam:</label>
 		<input type="text" class="form-control" id="firstname" name="firstname" required>
