@@ -9,6 +9,7 @@
 		<link href="{!! asset('/css/normalize.css') !!}" rel="stylesheet" type="text/css">
 		<link href="{!! asset('/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css">
         <link href="{!! asset('/css/main.css') !!}" rel="stylesheet" type="text/css">
+		<link href="/css/admin.font.awesome.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
@@ -52,13 +53,13 @@
 			          	<a href="#">Registeren</a>
 		        	</li>
 		      	</ul>
-		        	
+
 		    	</div><!-- /.navbar-collapse -->
 		 	</div><!-- /.container-fluid -->
 		</nav>
-			
+
 			@yield('header')
-			
+
 			@yield('content')
 
 			@yield('footer')
