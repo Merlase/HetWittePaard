@@ -1,14 +1,20 @@
 @extends('layout.default')
 @section('content')
+<?php
+$p=$_POST;
+if(isset($p) && !empty($p) ) {
+	var_dump($p);
+}
+?>
 <h1>Registreren</h1>
-<form action="" role="form">
+<form action="" method="post" role="form">
 	<div class="form-group required">
 		<label class="control-label" for="firstname">Voornaam:</label>
 		<input type="text" class="form-control" id="firstname" name="firstname" required>
 	</div>
 	<div class="form-group required">
 		<label class="control-label" for="lastname">Achternaam:</label>
-		<input type="text" class="form-control" id="lastname" name="lastname" required>
+		<input type="text" q2class="form-control" id="lastname" name="lastname" required>
 	</div>
 	<div class="form-group required">
 		<label class="control-label" for="username">Gebruikersnaam:</label>
@@ -27,8 +33,8 @@
 		<input type="password" class="form-control" id="pwd" name="pwd" required>
 	</div>
 	<div class="form-group required">
-		<label class="control-label" for="pwdc">Wachtwoord herhalen:</label>
-		<input type="password" class="form-control" id="pwdc" name="pwdc" required>
+		<label class="control-label" for="check">Wachtwoord herhalen:</label>
+		<input type="password" class="form-control" id="check" name="check" required>
 	</div>
 	<div class="checkbox">
 		<label class="control-label"><input type="checkbox"> Remember me</label>
