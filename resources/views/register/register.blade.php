@@ -1,6 +1,23 @@
 @extends('layout.default')
 @section('content')
-<h1>Registreren</h1>
+
+	<?php
+			$p=$_POST;
+
+		if(isset($p) && !empty($p) ) {
+
+			var_dump($p);
+		}
+
+
+
+	?>
+
+
+
+
+
+	<h1>Registreren</h1>
 <form action="" role="form">
 	<div class="form-group required">
 		<label class="control-label" for="firstname">Voornaam:</label>
