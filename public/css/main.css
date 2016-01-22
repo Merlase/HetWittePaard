@@ -151,3 +151,13 @@ html{
     animation-duration: 1s;
     color: #2DB4A8;
 }
+
+#usp .animate {
+    animation-name: pulse;
+}
+
+#footer {
+    padding: 50px 0;
+    background-color: #131313;
+    color: #fff;
+}
