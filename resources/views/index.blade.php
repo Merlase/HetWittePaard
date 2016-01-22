@@ -266,3 +266,27 @@
 	</div>
 </section>
 @stop
+
+
+@section('footer')
+<footer>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>dit is deze ding test</h3>
+                </div>
+                <div class="col-md-3">
+                    <h3>dit is deze ding test</h3>
+                </div>
+                <div class="col-md-3">
+                    <h3>dit is deze ding test</h3>
+                </div>
+                <div class="col-md-3">
+                    <h3>dit is deze ding test</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+@stop

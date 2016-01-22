@@ -159,3 +159,9 @@ html{
 #usp .animate {
     animation-name: pulse;
 }
+
+#footer {
+    padding: 50px 0;
+    background-color: #131313;
+    color: #fff;
+}
