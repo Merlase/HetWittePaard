@@ -25,7 +25,7 @@
 	</div>
 	<div class="form-group required">
 		<label class="control-label" for="lastname">Achternaam:</label>
-		<input type="text" class="form-control" id="lastname" name="lastname" required>
+		<input type="text" q2class="form-control" id="lastname" name="lastname" required>
 	</div>
 	<div class="form-group required">
 		<label class="control-label" for="username">Gebruikersnaam:</label>
