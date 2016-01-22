@@ -6,27 +6,23 @@ if(isset($p) && !empty($p) ) {
 	var_dump($p);
 }
 ?>
-<h1>Registreren</h1>
+<h1>Bedrijf Registreren</h1>
 <form action="" method="post" role="form">
-	<div class="form-group required">
-		<label class="control-label" for="firstname">Voornaam:</label>
-		<input type="text" class="form-control" id="firstname" name="firstname" required>
-	</div>
-	<div class="form-group required">
-		<label class="control-label" for="lastname">Achternaam:</label>
-		<input type="text" class="form-control" id="lastname" name="lastname" required>
-	</div>
 	<div class="form-group required">
 		<label class="control-label" for="username">Gebruikersnaam:</label>
 		<input type="text" class="form-control" id="username" name="username" required>
 	</div>
 	<div class="form-group required">
+		<label class="control-label" for="companyname">Bedrijfsnaam:</label>
+		<input type="text" class="form-control" id="companyname" name="companyname" required>
+	</div>
+	<div class="form-group required">
 		<label class="control-label" for="email">E-mail:</label>
 		<input type="email" class="form-control" id="email" name="email" required>
 	</div>
-	<div class="form-group required">
-		<label class="control-label" for="tel">Telefoonnummer:</label>
-		<input type="tel" class="form-control" id="tel" name="tel">
+	<div class="form-group">
+		<label class="control-label required" for="tel">Telefoonnummer:</label>
+		<input type="tel" class="form-control" id="tel" name="tel" required>
 	</div>
 	<div class="form-group required">
 		<label class="control-label" for="pwd">Wachtwoord:</label>
