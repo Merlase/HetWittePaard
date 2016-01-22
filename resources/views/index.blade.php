@@ -170,8 +170,8 @@
 <section id='usp'>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h3>Waarom kies je voor Science connet</h3>
+			<div class="col-md-12 text-center">
+				<h3>Waarom kies je voor Science connect</h3>
 			</div>
 		</div>
 		<div class="row">
