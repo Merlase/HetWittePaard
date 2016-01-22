@@ -1,23 +1,11 @@
 @extends('layout.default')
 @section('content')
-
-
-	<?php
-			$p=$_POST;
-
-		if(isset($p) && !empty($p) ) {
-
-			var_dump($p);
-		}
-
-
-
-	?>
-
-
-
-
-
+<?php
+$p=$_POST;
+if(isset($p) && !empty($p) ) {
+	var_dump($p);
+}
+?>
 <h1>Registreren</h1>
 <form action="" method="post" role="form">
 	<div class="form-group required">
