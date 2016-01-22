@@ -18,9 +18,9 @@
 		<label class="control-label" for="email">E-mail:</label>
 		<input type="email" class="form-control" id="email" name="email" required>
 	</div>
-	<div class="form-group ">
+	<div class="form-group">
 		<label class="control-label" for="tel">Telefoonnummer:</label>
-		<input type="tel" class="form-control" id="tel" name="tel" required>
+		<input type="tel" class="form-control" id="tel" name="tel">
 	</div>
 	<div class="form-group required">
 		<label class="control-label" for="pwd">Wachtwoord:</label>
