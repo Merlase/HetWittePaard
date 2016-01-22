@@ -104,3 +104,18 @@ html{
     margin-top: -26px;
     opacity: 1;
 }
+/* Profiel Pagina CSS */
+
+.button-link {
+    background: #4388CC;
+    color: #FFF;
+    float: right;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.tags{
+    height: 30px;
+    color: white;
+    border: 1px solid black;
+    margin: 1px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
