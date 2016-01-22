@@ -31,7 +31,7 @@
 		<input type="password" class="form-control" id="pwdc" name="pwdc" required>
 	</div>
 	<div class="checkbox">
-		<label><input type="checkbox"> Remember me</label>
+		<label class="control-label"><input type="checkbox"> Remember me</label>
 	</div>
 	<button type="submit" class="btn btn-default">Submit</button>
 </form>
