@@ -6,6 +6,7 @@ if(isset($p) && !empty($p) ) {
 	var_dump($p);
 }
 ?>
+<p><a href="register-bedrijf">Registreren als bedrijf.</a></p>
 <h1>Registreren</h1>
 <form action="" method="post" role="form">
 	<div class="form-group required">
